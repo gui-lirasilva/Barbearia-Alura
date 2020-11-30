@@ -1,0 +1,102 @@
+header{
+    background: url(img/Fundo-2.jpg);
+    background-size: cover;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 23px;
+}
+nav a:active{
+    color:brown;
+}
+main{
+    background: url(img/beneficios.jpg);
+    background-size: cover;
+    padding: 16%;
+}
+.principal h2{
+    color: lavenderblush;
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+}
+.principal #paragrafo-1{
+    color: lavenderblush;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+.principal #paragrafo-2{
+    color: lavenderblush;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+.principal #missao{
+    padding: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: lavenderblush;
+    text-align: center;
+}
+.titulo-centralizado{
+    position: relative;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.beneficios{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+}
+.beneficios h3{
+    color: lavenderblush;
+    font-style: italic;
+    font-weight: bold;
+}
+.beneficios li{
+    display: inline-block;
+    color: lavenderblush;
+    margin: 3% 1%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px dotted lightgrey;
+    border-radius: 20px;
+    font-style: italic;
+}
+.beneficios ul:hover .itens{
+    font-size: 17px;
+}
+footer{
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

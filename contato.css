@@ -1,0 +1,80 @@
+header{
+    background: url(img/Fundo-2.jpg);
+    background-size: cover;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 23px;
+}
+nav a:active{
+    color:brown;
+}
+main{
+    background: url(img/Fundo-1.jpg);
+    background-size: cover;
+    padding: 5%;
+}
+.contatos{
+    color: darkgray;
+    padding: 20px;
+    text-align: center;
+    margin: 0 0 90px 0;
+}
+.contatos h3{
+    font-size: 25px;
+    margin: 0 0 50px 0;
+    font-style: italic;
+}
+#insta{
+    font-size: 22px;
+    margin: 0 30px 0 0;
+}
+#tel{
+    font-size: 22px;
+    margin: 0 30px 0 30px;
+}
+#endereco{
+    font-size: 22px;
+    margin: 0 0 0 30px;
+}
+.entrar-em-contato{
+    padding: 20px;
+    color: darkgray;
+    text-align: center;
+}
+.entrar-em-contato p{
+    margin: 0 0 10px 0;
+}
+footer{
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
